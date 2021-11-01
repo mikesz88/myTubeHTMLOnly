@@ -4,7 +4,7 @@ Create my own "YouTube" Channel Website called **MyTube**.
 <br>
 <br>
 
-## Requirements: <hr>
+## Requirements: 
 1. This project will need to be built using a code editor of your choice.
    
 2. You will pick your own genre of video collections for this website. This could be a "MyTube" about cats, cars, etc. -  about anything. You will give all of the collections and titles and descriptions content within that theme.
