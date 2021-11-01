@@ -1,4 +1,4 @@
-# Project 1 - MyTube **HTML Only**
+# [Project 1 - MyTube **HTML Only**](https://mikesz88.github.io/myTubeHTMLOnly/)
 Create my own "YouTube" Channel Website called **MyTube**.
 <br>
 <br>
