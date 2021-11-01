@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyTube</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/pages/mcu.html">Marvel Cinema Universe</a>
+            <a href="/pages/dallasMavericks.html">Dallas Mavericks</a>
+            <a href="/pages/horribleInjuries.html">Horrible Sport Injuries</a>
+            <a href="/form.html">New Video</a>
+        </nav>
+
+        <h1>Add New Video</h1>
+    </header>
+    
+    <form>
+        <label for="title"><strong>Video Title</strong></label><br>
+        <input type="text" name="title" id="title" placeholder="Input Value" required><br><br>
+
+        <label for="description"><strong>Description</strong></label><br>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Text area content" required></textarea><br><br>
+
+        <label for="file"><strong>Video</strong></label><br>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="collectoin">
+            <select name="collection" id="collection">
+                <option value="" disabled selected>Choose Collection</option>
+                <option value="marvel-cinema-universe">Marvel Cinema Universe</option>
+                <option value="dallas-mavericks">Dallas Mavericks</option>
+                <option value="horrible-injuries">Horrible Injuries</option>
+            </select><br><br>
+        </label>
+
+        <label for="privacy">
+            <input type="radio" name="privacy" id="privacy" value="public">Public  
+            <input type="radio" name="privacy" id="privacy" value="private">Private  
+        </label><br><br><br><br>
+
+        <input type="submit" value="Upload Video">
+    </form>
+</body>
+
+</html>
